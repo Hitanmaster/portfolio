@@ -89,25 +89,24 @@ export const projectsData = [
   {
     title: "Vankar Foundation",
     description:
-      "Reverse Job board for companies looking to hire developers in Australia. Filter by experience, location and keyboards.  Companies can pay a monthly fee to be able to message developers on the site and view their information.",
-    tags: ["PHP", "Laravel", "JavaScript", "Tailwind", "MySQL"],
+      "Created a WordPress-based matrimonial platform by migrating HTML templates to WordPress for a seamless user experience. Developed custom plugins to handle user memberships and content access, while also implementing QR code payment integration to facilitate easy and secure payments. This platform simplifies the process of finding and connecting with potential life partners.",
+    tags: ["Wordpress","PHP", "JavaScript", "Tailwind", "MySQL"],
     icons: [
-      "logos:laravel",
+      "logos:wordpress",
       "logos:php",
       "logos:javascript",
       "devicon:tailwindcss",
       "logos:mysql",
     ],
     imageUrl: ozdevsImg,
-    urlLink: "https://clownfish-app-48u2r.ondigitalocean.app/",
-    githubLink: "https://github.com/ben04rogers/ozdevs-v2",
+    urlLink: "https://vankarfoundation.co.in/new/",
   },
   {
-    title: "Company Asset Trading",
+    title: "Bal Krishna Garba",
     description:
-      "Client-server system written in Java for trading of virtual assets within departments of a company. Facilitated trades via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
-    tags: ["Java", "MariaDB", "Swing"],
-    icons: ["logos:java", "logos:mariadb-icon"],
+      "Designed and developed a Garba pass and stall booking website to streamline the booking process for event attendees. Implemented features that allowed users to book passes and stalls online, along with creating an online photo gallery for users to view event photos. This made the overall event management more accessible and organized for participants.",
+    tags: ["bootstrap", "php", "javascript"],
+    icons: ["logos:bootstrap", "logos:php", "logos:javascript"],
     imageUrl: assetTradingImg,
     githubLink: "https://github.com/ben04rogers/organisation-asset-trading",
   },
