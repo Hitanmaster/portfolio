@@ -27,10 +27,10 @@ export const links = [
     name: "Experience",
     hash: "#experience",
   },
-  {
-    name: "Education",
-    hash: "#education",
-  },
+  // {
+  //   name: "Education",
+  //   hash: "#education",
+  // },
   {
     name: "Contact",
     hash: "#contact",
@@ -40,57 +40,54 @@ export const links = [
 export const experiencesData = [
   {
     title: "Web Developer",
-    location: "M3 Digital - Contract",
+    location: "Clicxia Web Technology",
     description:
-      "Front-end development for a variety of Shopify stores such as FitazFK, Rider Collective, Masseuse Massage, Francesca Jewellery and Salty Captain. Developed high quality landing pages and front end features using HTML, CSS, SCSS, JavaScript and Liquid.",
+      "Proficient in developing dynamic websites using PHP and WordPress, creating custom themes and plugins, and optimizing WooCommerce platforms, while implementing on-site SEO strategies to enhance website visibility.",
     icon: React.createElement(CgWorkAlt),
-    date: "September 2021 - February 2022",
+    date: "May 2023 - January 2024",
   },
   {
-    title: "Junior Developer",
-    location: "YouPay",
+    title: "IT Trainee",
+    location: "Inox India Limited",
     description:
-      "Developed new features using Laravel, Vue.js, PHP, JavaScript, Tailwind CSS, MySQL and REST APIs. Created an email notification system for mechants to receive weekly/monthly summaries of YouPay carts created, paid and cancelled. I also integrated YouPay into dozens of stores.",
-    icon: React.createElement(CgWorkAlt),
-    date: "February 2022 - November 2022",
-  },
-  {
-    title: "Software Engineer",
-    location: "The University of Queensland",
-    description:
-      "Full-stack software engineer in the Application Development and Support team. Worked on web applications such as CAHP (Casual Academic Hire and Payment), UQ Maps, UQ Donations, and Programs and Courses.",
-    icon: React.createElement(CgWorkAlt),
-    date: "November 2022 - January 2024",
-  },
-  {
-    title: "Software Engineer",
-    location: "Humanforce",
-    description:
-      "Software engineer in the intelliHR platform team. We are a feature enablement team dedicated to developing features for developers, ensuring they are easier to create. We also look after issues of scale and technical debt for developers and the platform.",
+      "Skilled in managing Windows Server environments, including Active Directory, DNS, DHCP, and Group Policy, with a solid understanding of IoT system architecture and management.",
     icon: React.createElement(CgWorkAlt),
     date: "January 2024 - Present",
   },
+  // {
+  //   title: "Software Engineer",
+  //   location: "The University of Queensland",
+  //   description:
+  //     "Full-stack software engineer in the Application Development and Support team. Worked on web applications such as CAHP (Casual Academic Hire and Payment), UQ Maps, UQ Donations, and Programs and Courses.",
+  //   icon: React.createElement(CgWorkAlt),
+  //   date: "November 2022 - January 2024",
+  // },
+  // {
+  //   title: "Web Developer",
+  //   location: "Vadodara",
+  //   description:
+  //     "Software engineer in the intelliHR platform team. We are a feature enablement team dedicated to developing features for developers, ensuring they are easier to create. We also look after issues of scale and technical debt for developers and the platform.",
+  //   icon: React.createElement(CgWorkAlt),
+  //   date: "January 2024 - Present",
+  // },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CryptoCrowd",
+    title: "Bedding Royal",
     description:
-      "Cryptocurrency sentiment analysis website based on Twitter posts. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on what people are currently posting on Twitter. Users can also see keywords and an average sentiment score. Stateless application that uses Elasticache and S3 on AWS. It also used EC2 and auto-scaling to manage demand.",
-    tags: ["JavaScript", "React", "Express.js", "AWS"],
+      "Developed and managed a complete e-commerce website for a bedding business in the UK, focusing on a user-friendly design. Leveraged Elementor and WPBakery to build the site, incorporating SEO-friendly strategies to boost visibility and improve search engine rankings. The site enabled smooth product browsing and purchasing experiences for customers.",
+    tags: ["Wordpress", "Elementor", "Woocommerce"],
     icons: [
-      "logos:aws",
-      "logos:javascript",
-      "logos:react",
-      "logos:bootstrap",
-      "logos:express",
+      "logos:wordpress",
+      "logos:elementor",
     ],
     imageUrl: cryptoCrowdImg,
-    githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
-    demoLink: "https://www.youtube.com/watch?v=uhyC0M4WIl4",
+    // githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
+    urlLink: "https://beddingroyal.co.uk/",
   },
   {
-    title: "OzDevs",
+    title: "Vankar Foundation",
     description:
       "Reverse Job board for companies looking to hire developers in Australia. Filter by experience, location and keyboards.  Companies can pay a monthly fee to be able to message developers on the site and view their information.",
     tags: ["PHP", "Laravel", "JavaScript", "Tailwind", "MySQL"],
@@ -175,6 +172,10 @@ export const projectsData = [
 
 export const skillsData = [
   {
+    name: "Wordpress",
+    icon: "logos:wordpress",
+  },
+  {
     name: "JavaScript",
     icon: "logos:javascript",
   },
@@ -195,20 +196,8 @@ export const skillsData = [
     icon: "logos:php",
   },
   {
-    name: "Laravel",
-    icon: "logos:laravel",
-  },
-  {
-    name: "Symfony",
-    icon: "logos:symfony",
-  },
-  {
     name: "Python",
     icon: "logos:python",
-  },
-  {
-    name: "Java",
-    icon: "logos:java",
   },
   {
     name: "HTML",
@@ -237,14 +226,6 @@ export const skillsData = [
   {
     name: "AWS",
     icon: "logos:aws",
-  },
-  {
-    name: "Docker",
-    icon: "logos:docker-icon",
-  },
-  {
-    name: "Jenkins",
-    icon: "devicon:jenkins",
   },
   {
     name: "Shopify",
