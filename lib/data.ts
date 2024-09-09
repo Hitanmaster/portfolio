@@ -1,14 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import cryptoCrowdImg from "@/public/cryptocrowd2.png";
-import ozdevsImg from "@/public/ozdevs-two.png";
-import assetTradingImg from "@/public/asset-trading.jpg";
-import euphorusImg from "@/public/euphorus-two.png";
-import euphorusBackendImg from "@/public/euphorus-backend.png";
-import techprowlImg from "@/public/techprowl-two.png";
-import taskManagerImg from "@/public/task-manager.png";
-import familyTreeImg from "@/public/bfsproject.jpg";
-import binaryGameImg from "@/public//binary-game.png";
+import beddingRoyal from "@/public/beddingroyal.png";
+import vankarFoundation from "@/public/vankarfoundation.png";
+import overseas from "@/public/overseas_website.png";
+import telegramBot from "@/public/telegram_bot.jpg";
+import balKrishnaGarba from "@/public/balkrishnagarba.png";
 
 export const links = [
   {
@@ -82,7 +78,7 @@ export const projectsData = [
       "logos:wordpress",
       "logos:elementor",
     ],
-    imageUrl: cryptoCrowdImg,
+    imageUrl: beddingRoyal,
     // githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
     urlLink: "https://beddingroyal.co.uk/",
   },
@@ -98,7 +94,7 @@ export const projectsData = [
       "devicon:tailwindcss",
       "logos:mysql",
     ],
-    imageUrl: ozdevsImg,
+    imageUrl: vankarFoundation,
     urlLink: "https://vankarfoundation.co.in/new/",
   },
   {
@@ -107,66 +103,66 @@ export const projectsData = [
       "Designed and developed a Garba pass and stall booking website to streamline the booking process for event attendees. Implemented features that allowed users to book passes and stalls online, along with creating an online photo gallery for users to view event photos. This made the overall event management more accessible and organized for participants.",
     tags: ["bootstrap", "php", "javascript"],
     icons: ["logos:bootstrap", "logos:php", "logos:javascript"],
-    imageUrl: assetTradingImg,
-    githubLink: "https://github.com/ben04rogers/organisation-asset-trading",
-  },
-  // {
-  //   title: "Euphorus",
-  //   description:
-  //     "React application for viewing country happiness data collected from the World Happiness Report initiative. Users can filter by year, country and search limit. AG Grid and Chart.js were used to present the data.",
-  //   tags: ["JavaScript", "React", "Bootstrap"],
-  //   icons: ["logos:javascript", "logos:react", "logos:bootstrap"],
-  //   imageUrl: euphorusImg,
-  //   githubLink: "https://github.com/ben04rogers/cab230assignment1",
-  // },
-  // {
-  //   title: "Country Happiness API",
-  //   description:
-  //     "Developed and deployed an Express API to support the front-end of the Euphorus Happiness Data web application. Routes support query parameters and authorization using JWT. Includes endpoints for countries, rankings, factors, registration, login, and profile. Tested software extensively with Jest and created Swagger documentation for the API as well.      ",
-  //   tags: ["JavaScript", "Node.js", "Express.js", "Swagger", "MySQL"],
-  //   icons: ["logos:javascript", "logos:express", "logos:swagger", "cib:mysql"],
-  //   imageUrl: euphorusBackendImg,
-  //   githubLink: "https://github.com/ben04rogers/cab230assignment2",
-  // },
-  {
-    title: "Techprowl Computer Auction",
-    description:
-      "Computer auction application built with Flask. The site allows users to register, bid on items, leave reviews, post new listings, manage listings, search by keyword, and keep a watch list. ",
-    tags: ["Python", "Flask", "Bootstrap", "SQLite"],
-    icons: ["logos:python", "logos:bootstrap", "logos:sqlite"],
-    imageUrl: techprowlImg,
-    githubLink: "https://github.com/ben04rogers/computer-auction",
-    urlLink: "https://techprowl.herokuapp.com",
+    imageUrl: balKrishnaGarba,
+    urlLink: "https://balkrishnagarba.org.in/",
   },
   {
-    title: "Task Manager Console App",
+    title: "File Provider Bot",
     description:
-      "Console app that manages tasks in a project. Users can load projects from a file and generate a seqeuence to complete them in, based on each task's dependencies. Users can also find earliest possible commencement time of each task, add new tasks, update tasks, remove tasks, and save the results to a text file.",
-    tags: ["C#"],
-    icons: ["devicon:csharp"],
-    imageUrl: taskManagerImg,
-    githubLink: "https://github.com/ben04rogers/task-manager",
-  },
-  {
-    title: "Family Tree Shortest Path",
-    description:
-      "Python program that implements a breadth-first search algorithm to generate a minimal spanning tree. Problem was to calculate a shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree",
-    tags: ["Python"],
+      "Developed a Telegram bot designed to securely provide files while avoiding the risk of getting banned. The bot leverages short URLs to safeguard links and ensure smooth file distribution. By incorporating smart link management and secure practices, the bot effectively handles file requests, making it reliable and efficient for users.",
+    tags: ["Python", "Pyrogram"],
     icons: ["logos:python"],
-    imageUrl: familyTreeImg,
-    githubLink: "https://github.com/ben04rogers/breadth-first-search",
-    demoLink: "https://www.youtube.com/watch?v=VXCZKsqupxA",
+    imageUrl: telegramBot,
+    // githubLink: "https://github.com/ben04rogers/cab230assignment1",
   },
   {
-    title: "Arduino Binary Game",
+    title: "Oversea Courier Website",
     description:
-      "Binary game written in C that runs on an Arduino Uno using Tinkercad. The game aims to help users learn binary by challenging them to input different integers in their binary form within a time limit.",
-    tags: ["C"],
-    icons: ["devicon:c"],
-    imageUrl: binaryGameImg,
-    githubLink: "https://github.com/ben04rogers/binary-game-microcontroller",
-    demoLink: "https://www.youtube.com/watch?v=A6n6XDk4Unw&feature=youtu.be",
+      "Developed the Over Sears Courier website, a comprehensive platform offering IT consultancy and web solutions for businesses. The website provides a clear showcase of services such as web development, software consulting, and digital solutions to help clients enhance their online presence. Designed with a professional interface, it includes detailed service pages, an integrated contact system for consultations, and a secure client portal for managing ongoing projects. The platform was built to be responsive, SEO-optimized, and easily navigable, offering a streamlined experience for potential clients in need of web solutions and IT support.",
+    tags: ["Wordpress", "Javascript", "MySQL"],
+    icons: ["logos:javascript", "logos:wordpress", "cib:mysql"],
+    imageUrl: overseas,
+    githubLink: "https://himanshumore.great-site.net/",
   },
+  // {
+  //   title: "Techprowl Computer Auction",
+  //   description:
+  //     "Computer auction application built with Flask. The site allows users to register, bid on items, leave reviews, post new listings, manage listings, search by keyword, and keep a watch list. ",
+  //   tags: ["Python", "Flask", "Bootstrap", "SQLite"],
+  //   icons: ["logos:python", "logos:bootstrap", "logos:sqlite"],
+  //   imageUrl: techprowlImg,
+  //   githubLink: "https://github.com/ben04rogers/computer-auction",
+  //   urlLink: "https://techprowl.herokuapp.com",
+  // },
+  // {
+  //   title: "Task Manager Console App",
+  //   description:
+  //     "Console app that manages tasks in a project. Users can load projects from a file and generate a seqeuence to complete them in, based on each task's dependencies. Users can also find earliest possible commencement time of each task, add new tasks, update tasks, remove tasks, and save the results to a text file.",
+  //   tags: ["C#"],
+  //   icons: ["devicon:csharp"],
+  //   imageUrl: taskManagerImg,
+  //   githubLink: "https://github.com/ben04rogers/task-manager",
+  // },
+  // {
+  //   title: "Family Tree Shortest Path",
+  //   description:
+  //     "Python program that implements a breadth-first search algorithm to generate a minimal spanning tree. Problem was to calculate a shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree",
+  //   tags: ["Python"],
+  //   icons: ["logos:python"],
+  //   imageUrl: familyTreeImg,
+  //   githubLink: "https://github.com/ben04rogers/breadth-first-search",
+  //   demoLink: "https://www.youtube.com/watch?v=VXCZKsqupxA",
+  // },
+  // {
+  //   title: "Arduino Binary Game",
+  //   description:
+  //     "Binary game written in C that runs on an Arduino Uno using Tinkercad. The game aims to help users learn binary by challenging them to input different integers in their binary form within a time limit.",
+  //   tags: ["C"],
+  //   icons: ["devicon:c"],
+  //   imageUrl: binaryGameImg,
+  //   githubLink: "https://github.com/ben04rogers/binary-game-microcontroller",
+  //   demoLink: "https://www.youtube.com/watch?v=A6n6XDk4Unw&feature=youtu.be",
+  // },
 ] as const;
 
 export const skillsData = [
